@@ -1,0 +1,159 @@
+.phosis_hero_area {
+    background: #8ab3c5;
+    padding-bottom: 80px;
+}
+.phosis_hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.phosis_hero_image{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+.phosis_hero_contents {
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    text-align: center;
+}
+.phosis_hero_contents .video_play_btn i {
+    font-size: 250px;
+}
+
+.video_play_btn {
+    border-radius: 50%;
+    border: 3px solid;
+    padding: 50px 60px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.phosis_hero_contents .video_play_btn i {
+    font-size: 100px;
+}
+.phosis_hero_contents .video_play_btn i:hover, .video_play_btn:hover,
+.phosis_hero_contents .video_play_btn i:focus, .video_play_btn:focus
+{
+    color: #f8c600
+}
+
+
+.phosis_hero_contents h2 {
+    color: #fff;
+    margin: 0;
+    font-family: 'Avenir LT Std';
+    font-size: 40px
+}
+.phosis_hero_contents h1 {
+    color: #fff;
+    margin: 0;
+    font-family: 'Avenir LT Std';
+    font-size: 70px;
+}
+
+.phosis_hero_contents p {
+    color: #fff;
+    margin: 0;
+    font-family: 'Avenir LT Std';
+    font-size: 17px;
+    margin: 0;
+    line-height: 1.2;
+}
+.phosis_buttons {
+    margin-top: 30px;
+    width: 57%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.phosis_buttons a {
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 49%;
+}
+.btn_color3 {
+    border: 1px solid #273051;
+    color: #273051;
+}
+.phosis_buttons a:hover{
+    background: #000;
+    color: #fff
+}
+
+
+
+/* Responsive */
+
+@media only screen and (min-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .phosis_hero {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .phosis_hero_image {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .video_play_btn {
+	padding: 50px 60px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+    .phosis_hero_contents .video_play_btn i {
+	font-size: 30px;
+}
+    .video_play_btn {
+        padding: 30px 35px;
+    }
+    .phosis_hero_contents h2 {
+	font-size: 28px;
+}
+    .phosis_hero_contents h1 {
+	font-size: 40px;
+}
+    .phosis_hero_contents p {
+	font-size: 16px;
+}
+    .phosis_buttons {
+        margin-top: 25px;
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .phosis_buttons a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

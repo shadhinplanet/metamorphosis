@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('AvenirLTStd-Black.eot');
+    src: url('AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('AvenirLTStd-Black.woff2') format('woff2'),
+        url('AvenirLTStd-Black.woff') format('woff'),
+        url('AvenirLTStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Javacom';
+    src: url('Javacom.eot?#iefix') format('embedded-opentype'),  url('Javacom.otf')  format('opentype'),
+        url('Javacom.woff') format('woff'), url('Javacom.ttf')  format('truetype'), url('Javacom.svg#Javacom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satisfaction';
+    src: url('Satisfaction.eot');
+    src: url('Satisfaction.eot?#iefix') format('embedded-opentype'),
+        url('Satisfaction.woff2') format('woff2'),
+        url('Satisfaction.woff') format('woff'),
+        url('Satisfaction.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('NexaLight.eot');
+    src: url('NexaLight.eot?#iefix') format('embedded-opentype'),
+        url('NexaLight.woff2') format('woff2'),
+        url('NexaLight.woff') format('woff'),
+        url('NexaLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+

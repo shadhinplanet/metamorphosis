@@ -1,0 +1,333 @@
+.phosis_single_class_item_details {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.phosis_module_lists {
+    background: #2d365c;
+    align-self: flex-start;
+    min-height: 50vh;
+}
+.phosis_single_class_content {
+    flex: 80%;
+    margin-left: 20px;
+}
+
+.phosis_module_menu li a {
+    display: block;
+    padding: 0px 0;
+    color: #fff;
+}
+.phosis_module_menu li.current-menu-item a {
+    color: #343e69;
+    font-weight: bold;
+}
+
+.phosis_class_files {
+    border: 2px solid #f8c600;
+    padding: 15px;
+}
+.phosis_class_files h1 {
+    margin: 0;
+    border-bottom: 1px solid #f8c600;
+    padding-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+.document_preview{
+    height: 60vh;
+}
+.single_document {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 10px;
+}
+.single_document p {
+    margin: 0;
+    align-self: center;
+}
+.single_document:nth-child(odd) {
+    background: #ddd;
+}
+.document_actions {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.action_view {
+    display: block;
+    border: 1px solid;
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    background: #f6cc00;
+    color: #000;
+}
+.document_actions form {
+    flex: 1;
+    background: #343e69;
+    text-align: center;
+}
+.action_download {
+    background: #2d365c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all .4s ease;
+    padding: 10px 0;
+}
+.action_download:hover{
+    background: #000;
+    color: #fff
+}
+.doc_download {
+    text-align: center;
+    margin-top:  50px;
+    margin-bottom: 30px;
+}
+
+.doc_download .action_download {
+    padding: 10px 20px;
+}
+.phosis_class_files_area .phosis_class_files {
+    margin-bottom: 20px;
+}
+.phosis_class_files h2 {
+    font-size: 18px;
+}
+
+.no_access .btn_color2 {
+    padding: 0px 9px;
+    color: #fff;
+    background: none;
+    color: #2d365c;
+    text-decoration: underline;
+}
+
+/**/
+
+.phosis_class_title_area {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.module_name {
+    flex: 27%;
+    margin-right: 3%;
+    align-self: center;
+    text-align: center;
+}
+.module_class_title {
+    flex: 70%;
+    align-self: center;
+}
+.module_name h2 {
+    background: #2d365c;
+    border: 7px solid;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #000;
+    color: #fff;
+    display: inline-block;
+    float: none;
+    font-size: 21px;
+    font-weight: 700;
+    height: 140px;
+    line-height: 1.2;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 46px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 140px;
+}
+.module_class_title > h2 {
+    color: #2d365c;
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    margin: 15px 0 0;
+}
+.module_class_title h3 {
+    color: #d31900;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+.phosis_single_class_maincontent {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.phosis_module_sidebar {
+    flex: 27%;
+    margin-right: 3%;
+}
+.phosis_class_maincontent {
+    flex: 70%;
+}
+
+.single_module_nav li {
+    background: #2d365c none repeat scroll 0 0;
+    display: block;
+    font-size: 15px;
+    padding: 10px 25px;
+    position: relative;
+    transition: all .4s ease
+}
+
+
+.single_module_nav li.current-menu-item, .phosis_module_menu li:hover {
+    background: #f8c600;
+}
+
+.single_module_nav li.current-menu-item::after {
+    background: #f8c600 none repeat scroll 0 0;
+    content: "";
+    height: 30px;
+    margin-top: -15px;
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 30px;
+}
+
+.phosis_class_content {
+    margin-bottom: 50px;
+}
+
+.phosis_class_video {
+    margin-bottom: 30px;
+}
+
+
+.download-03 {
+    border: 1px solid;
+    border-radius: 10px;
+    color: #1ba13d;
+    margin-bottom: 20px;
+    padding: 20px 35px;
+    position: relative;
+    width: 100%;
+}
+.download {
+    margin-top: 20px;
+}
+.download-content {
+    background-image: url("../../img/check-icon.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+.download-content.questions {
+    background-image: url("../../img/question-mark-icon.png");
+    display: inline-block;
+    margin-top: -10px;
+}
+.download-content.questions h2 {
+    color: #1ba13d;
+}
+.download-content h2 {
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+}
+.download-content.questions h3 {
+    color: #666666;
+}
+.download-content h3 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 65%;
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 1920px) {
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .phosis_single_class_item_details {
+        flex-direction: column;
+    }
+    .phosis_single_class_content {
+        flex: auto;
+        margin: auto;
+        width: 100%;
+    }
+    .single_document {
+        flex-direction: column;
+    }
+    .document_actions {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 15px 0;
+    }
+    .document_actions form {
+        flex: 1;
+        text-align: center;
+        background: #343e69;
+    }
+    .action_view {
+        flex: 1;
+        text-align: center;
+        font-size: 16px;
+        padding: 7px 0;
+    }
+    
+    
+/*    */
+    
+    .phosis_class_title_area {
+        flex-direction: column;
+    }
+    .module_class_title > h2 {
+        font-size: 21px;
+        text-align: center;
+    }
+    .module_class_title h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .phosis_single_class_maincontent {
+        flex-direction: column;
+    }
+    .phosis_module_sidebar {
+        flex: auto;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .phosis_module_lists {
+        min-height: auto;
+    }
+    .phosis_class_content h2 {
+        font-size: 25px;
+    }
+    .phosis_class_content p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .single_module_nav li.current-menu-item::after {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

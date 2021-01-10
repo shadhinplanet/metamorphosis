@@ -1,0 +1,202 @@
+.phosis_tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.phosis_tab_left {
+    width: 50%;
+}
+.phosis_tab_right {
+    width: 50%;
+}
+
+.phosis_tab_left ul.nav-pills li.nav-item a {
+    border-radius: 0;
+    padding: 10px 30px;
+    font-size: 22px;
+    color: #fff;
+    position: relative
+}
+.phosis_tab_left ul.nav-pills li{
+    margin: 0px 10px
+
+}
+.phosis_tab_left ul.nav-pills li.nav-item:first-child a {
+    background: #283051;
+}
+.phosis_tab_left ul.nav-pills li.nav-item a.active:after {
+    position: absolute;
+    left: 50%;
+    content: "";
+    background: #2e375d;
+    height: 22px;
+    width: 16px;
+    bottom: -9px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: -1;
+    margin-left: -8px;
+}
+.phosis_tab_left ul.nav-pills li.nav-item:nth-child(2) a {
+    background: #fbc005;
+}
+.phosis_tab_left ul.nav-pills li.nav-item:nth-child(2) a.active:after{
+    background: #fbc005;
+}
+
+.tab-content {
+    margin-top: 50px;
+}
+.tab-content h2 {
+    color: #030303;
+    font-size: 37px;
+    font-weight: 300;
+}
+.phosis_bullet {
+    margin-top: 50px;
+}
+.phosis_single_bullet {
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.phosis_single_bullet .icon {
+    background: #2e375d;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-right: 25px
+}
+.bullet_content {
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.bullet_content h3 {
+    color: #fbc005;
+    font-size: 35px;
+    font-family: 'Avenir LT Std';
+    margin: 0
+}
+
+.bullet_content p {
+    font-size: 12px;
+}
+
+.swiper-slide {
+    height: 390px;
+    background-size: cover;
+    position: relative;
+    z-index: 1
+}
+
+.swiper-small .swiper-slide {
+    height: 150px;
+    cursor: pointer;
+    margin-top: 7px
+}
+.swiper-small .swiper-slide:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    opacity: .5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+.swiper-small .swiper-slide.swiper-slide-visible.swiper-slide-thumb-active:after {
+    display: none
+}
+
+.swiper-top, .swiper-small{
+    position: relative
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background: #f8c600;
+    left: 0;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+    background: #f8c600;
+    right: 0;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 25px;
+}
+/* Responsive */
+
+@media only screen and (min-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .phosis_tabs {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .phosis_tab_left, .phosis_tab_right {
+        width: auto;
+    }
+    .tab-content h2 {
+        font-size: 23px;
+    }
+    .bullet_content h3 {
+        font-size: 25px;
+    }
+    .bullet_content p {
+        font-size: 13px;
+    }
+    .phosis_single_bullet .icon {
+        width: 58px;
+        height: 50px;
+    }
+    .swiper-slide {
+        height: 310px;
+    }
+    .swiper-small .swiper-slide {
+        height: 100px;
+    }
+    .phosis_tab_left ul.nav-pills {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .phosis_tab_left ul.nav-pills li {
+        margin: 0;
+        width: 48%;
+        text-align: center;
+    }
+    .phosis_tab_left ul.nav-pills li.nav-item a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

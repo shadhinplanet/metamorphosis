@@ -1,0 +1,143 @@
+.phosis_two_column {
+    display: flex;
+    justify-content: space-between;
+}
+.phosis_two_column_image {
+    width: 40%;
+    align-self: center;
+}
+.phosis_two_column_contents {
+    width: 60%;
+    align-self: center;
+    padding-left: 90px;
+}
+.phosis_two_column_area.theme_2, .phosis_two_column_area.theme_3 {
+    background: #e6e6e5;
+    padding: 200px 0;
+    position: relative;
+}
+.phosis_two_column_area.theme_2::before, .phosis_two_column_area.theme_3::before {
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    content: "";
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    margin-left: -25px;
+    transform: rotate(45deg);
+}
+.phosis_two_column_area.theme_2 .phosis_two_column_contents {
+    padding-right: ;
+    padding-right: 90px;
+    padding-left: 0;
+}
+.phosis_two_column_contents h2 {
+    color: #ffc001;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.phosis_two_column_contents p {
+    font-size: 15px;
+}
+
+.phosis_two_column_area.theme_3 .phosis_two_column {
+    flex-wrap: wrap;
+}
+
+.phosis_two_column_area.theme_3 {
+    padding: 100px 0;
+}
+.phosis_single_col_item {
+    width: 48%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.single_col_icon {
+    margin-right: 30px;
+    width: 20%;
+}
+.single_col_content {
+    width: 80%;
+    padding-top: 22px;
+}
+.single_col_content p {
+    font-size: 13px;
+}
+
+.single_col_content h2 {
+    color: #ffc001;
+    font-size: 23px;
+}
+
+
+
+
+
+
+/* Responsive */
+
+@media only screen and (min-width: 1920px) {
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .phosis_two_column {
+        flex-direction: column;
+    }
+    .phosis_two_column_image {
+        width: auto;
+        order: 1;
+    }
+    .phosis_two_column_contents {
+        width: auto;
+        order: 2;
+        margin-top: 50px;
+        padding: 0;
+    }
+    .phosis_two_column_contents h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .phosis_two_column_contents p {
+        font-size: 13px;
+    }
+    .phosis_two_column_area.theme_2, .phosis_two_column_area.theme_3 {
+        padding: 100px 0;
+    }
+    .phosis_two_column_area.theme_2 .phosis_two_column_contents {
+        padding: 0;
+    }
+    .phosis_single_col_item {
+        width: auto;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .single_col_icon {
+        max-width: 150px;
+        margin: auto;
+    }
+    .single_col_content {
+        width: auto;
+        text-align: center;
+    }
+    .single_col_content h2 {
+        font-size: 20px;
+    }
+    .single_col_content p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

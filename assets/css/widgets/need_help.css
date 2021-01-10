@@ -1,0 +1,69 @@
+.phosis_need_help_area {
+    padding: 40px 0;
+    text-align: center;
+    border-top: 7px dotted;
+    border-bottom: 7px dotted;
+}
+.phosis_need_help {
+    padding: 50px 0;
+    background: #7b7b7b;
+}
+.phosis_need_help h2 {
+    font-size: 75px;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+}
+.phosis_need_help h3 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+}
+.phosis_need_help a {
+    background: #000;
+    display: inline-block;
+    padding: 20px 35px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.phosis_need_help a:hover{
+    background: #f8c600;
+    color: #000
+}
+/* Responsive */
+
+@media only screen and (min-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .phosis_need_help h2 {
+	font-size: 23px;
+}
+   .phosis_need_help h3 {
+	font-size: 18px;
+	width: 77%;
+	margin: auto;
+	margin-top: 15px;
+}
+   .phosis_need_help a {
+	padding: 15px 23px;
+	font-size: 11px;
+	margin-top: 20px;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

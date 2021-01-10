@@ -1,0 +1,42 @@
+.phosis_footer_area {
+    background: #273051;
+    padding: 25px 0
+}
+.phosis_footer {
+    text-align: center;
+    color: #fff;
+    font-family: 'Nexa';
+    font-size: 14px;
+}
+.phosis_footer p{
+    margin: 0;
+}
+.phosis_footer a{
+    color: #d3232b
+}
+.phosis_footer a:hover{
+    color: #f8c600
+}
+/* Responsive */
+
+@media only screen and (min-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .phosis_footer p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

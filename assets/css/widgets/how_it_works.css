@@ -1,0 +1,55 @@
+.phosis_how_it_works {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+.phosis_how_it_works_item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
+.phosis_counter {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    line-height: 150px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.phosis_how_it_works_item p {
+    font-size: 14px;
+    line-height: normal;
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

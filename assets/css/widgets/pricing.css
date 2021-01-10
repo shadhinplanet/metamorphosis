@@ -1,0 +1,122 @@
+.phosis_pricing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.phosis_single_pricing_box {
+    width: 30%;
+    text-align: center;
+    margin-top: 50px;
+    height: 330px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.pricing_title {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 10px;
+}
+.pricing_title h2 {
+    font-size: 30px;
+    margin: 0;
+}
+.pricing_price h2 {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Avenir LT Std';
+}
+.pricing_price {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.pricing_price h2 {
+    font-size: 95px;
+    color: #fff;
+    font-family: 'Avenir LT Std';
+    margin: 0;
+    padding: 20px 0;
+    line-height: .5;
+    margin: 30px 0;
+    margin-bottom: 9px;
+}
+.pricing_content {
+    color: #fff;
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.pricing_content p{
+    line-height: normal;
+    margin: 0
+}
+.pricing_enroll {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease
+}
+.pricing_enroll a {
+    color: #fff;
+    padding: 20px 0;
+    display: inline-block;
+}
+.pricing_enroll {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    margin-bottom: 15px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.pricing_enroll:hover{
+    background: #000
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .phosis_pricing {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .phosis_single_pricing_box {
+        width: auto;
+        height: auto;
+    }
+    .pricing_content {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

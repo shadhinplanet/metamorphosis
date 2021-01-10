@@ -1,0 +1,193 @@
+.phosis_intro {
+    background: #e7e7e5;
+    padding: 50px;
+    position: relative;
+    margin-top: -45px;
+    padding-top: 130px;
+}
+
+.phosis_intro_box {
+    background: #ffffff;
+    box-shadow: 0 2px 5px #777;
+    position: absolute;
+    top: -40px;
+    width: 90%;
+}
+
+.phosis_intro_items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.phosis_box_single_item {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.phosis_box_single_item p {
+    color: #fff;
+    margin: 0;
+    line-height: 1;
+}
+
+.phosis_box_single_item a {
+    color: #fff;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.phosis_box_single_item a:hover,
+.phosis_intro_text a:hover {
+    color: #000
+}
+
+.phosis_intro_text {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 0;
+}
+
+.phosis_intro_text p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.phosis_intro_text a {
+    font-size: 12px;
+    color: #273051;
+    margin-left: 4px;
+    text-decoration: underline;
+}
+
+.phosis_author_intro h2 {
+    color: #273051;
+    font-size: 38px;
+    margin-bottom: 30px
+}
+
+.phosis_author_intro p.dropcap:first-child:first-letter {
+    color: #fbc005;
+    float: left;
+    font-size: 55px;
+    line-height: 60px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-left: 5px;
+    padding-bottom: 10px
+}
+
+.phosis_col_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.phosis_author_intro p {
+    font-size: 14px;
+}
+
+.phosis_author_intro h4 {
+    font-family: 'Javacom';
+    color: #030303;
+    font-size: 32px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+/* Responsive */
+
+@media only screen and (min-width: 1920px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {
+    .phosis_intro {
+        padding: 15px;
+        margin-top: -45px;
+        padding-top: 0;
+    }
+
+    .phosis_intro_box {
+        position: relative;
+        top: -40px;
+        width: 116%;
+        left: -8%;
+    }
+
+    .phosis_intro_text {
+        padding: 20px 20px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+.phosis_intro_text p {
+	margin: 0;
+	font-size: 14px;
+}
+    .phosis_intro_text a {
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+    .phosis_author_intro h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .phosis_col_2 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .phosis_col_2 .col-6 {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .phosis_col_2 .col-6 br {
+        display: none
+    }
+
+    .phosis_author_intro p {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .phosis_author_intro p.dropcap:first-child:first-letter {
+        font-size: 50px;
+        line-height: 50px;
+        padding-top: 5px;
+        padding-right: 15px;
+        padding-left: 10px;
+        padding-bottom: 5px
+    }
+
+    .phosis_author_intro h4 {
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

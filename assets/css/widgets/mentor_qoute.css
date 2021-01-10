@@ -1,0 +1,151 @@
+.phosis_mentor_qoute_area {
+    width: 80%;
+    margin: auto;
+}
+.phosis_mentor_qoutes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.phosis_single_mentor_qoute {
+    width: 22%;
+    text-align: center;
+    border: 1px solid;
+}
+
+.qoute_background {
+    height: 130px;
+    background-size: cover;
+}
+.mentor_thumb {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+    border: 5px solid #fff;
+    margin-top: -40px;
+}
+
+.phosis_single_mentor_qoute h2 {
+    margin-top: 30px;
+    color: #b6bd39;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Avenir LT Std';
+    padding: 0px 20px;
+}
+.phosis_single_mentor_qoute h4 {
+    color: #273051;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-family: 'Avenir LT Std';
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+
+.phosis_single_mentor_qoute h5 {
+    color: #afafaf;
+    font-size: 19px;
+    font-weight: normal;
+    font-family: 'Avenir LT Std';
+    padding: 0px 20px;
+    margin: 0;
+}
+.access_mentor_posts {
+    border-top: 1px solid;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+.access_mentor_posts p {
+    margin: 0;
+    -ms-flex-item-align: center;
+    align-self: center;
+    color: #b6bd39;
+    font-size: 15px;
+    -webkit-box-flex: 1.5;
+    -ms-flex: 1.5;
+    flex: 1.5;
+}
+.access_mentor_posts a {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    color: #ffc001;
+    font-size: 20px;
+    font-family: 'Avenir LT Std';
+    -ms-flex-item-align: center;
+    align-self: center;
+    border-left: 1px solid #000;
+    line-height: normal;
+    padding: 10px 0;
+}
+.access_mentor_posts a i {
+    margin-left: 8px;
+    font-size: 80%;
+}
+.access_mentor_posts a:hover{
+    color: #000
+}
+
+
+
+
+
+/* Responsive */
+
+@media only screen and (min-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .phosis_mentor_qoute_area {
+        width: 98%;
+        margin: auto;
+    }
+    .phosis_mentor_qoutes {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .phosis_single_mentor_qoute {
+        width: auto;
+        margin-bottom: 50px;
+    }
+    .phosis_single_mentor_qoute:last-child {
+        margin: 0
+    }
+    .phosis_single_mentor_qoute h5 {
+        font-size: 17px;
+    }
+    .access_mentor_posts a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

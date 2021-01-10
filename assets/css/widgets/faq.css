@@ -1,0 +1,69 @@
+.phosis_faq_carousel {
+    margin-top: 50px;
+    padding: 0px 65px;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+}
+.phosis_faq_carousel .swiper-slide {
+    height: auto;
+}
+.phosis_single_faq_question h2 {
+    font-size: 20px;
+    color: #273051;
+    margin-bottom: 20px;
+}
+.phosis_single_faq_question p {
+    line-height: 2.5;
+    font-size: 15px;
+    margin: 0;
+}
+.phosis_faq_carousel .swiper-button-next, .phosis_faq_carousel .swiper-container-rtl .swiper-button-prev {
+    background: #000000;
+    right: -65px;
+    color: #fff;
+    width: 50px;
+}
+.phosis_faq_carousel .swiper-button-prev, .phosis_faq_carousel .swiper-container-rtl .swiper-button-next {
+    background: #000000;
+    color: #fff;
+    width: 50px;
+    left: -65px
+}
+
+.phosis_faq_carousel  .swiper-container{
+    overflow: unset
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .phosis_faq_carousel {
+        padding: 0;
+        overflow: hidden;
+        width: auto;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .phosis_single_faq_question p {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

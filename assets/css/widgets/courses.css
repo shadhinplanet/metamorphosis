@@ -1,0 +1,165 @@
+.phosis_courses_list_area {
+    background: #4c4c4f;
+    padding: 100px 0;
+}
+
+.phosis_courses_list_area .phosis_section_title h2{
+    color: #ffc001
+}
+.phosis_course_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.phosis_single_course_item {
+    width: 48%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.phosis_course_icon {
+    background: #273051;
+    padding: 30px 38px;
+    -ms-grid-column-align: center;
+    justify-items: center;
+    color: #fff;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.phosis_course_icon h2 {
+    font-size: 32px;
+    line-height: 1;
+    font-family: 'Avenir LT Std';
+    margin: 0;
+}
+.phosis_course_contnet {
+    background: #fbc000;
+    padding: 19px;
+    text-align: center;
+    font-size: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.phosis_course_contnet p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    -ms-flex-item-align: center;
+    align-self: center;
+    text-align: left;
+}
+.phosis_course_contnet a {
+    color: #000;
+    font-size: 10px;
+    line-height: normal;
+}
+
+.more_courses {
+    text-align: center;
+    margin-top: 50px;
+}
+.more_courses a {
+    color: #fbc005;
+    border: 1px solid #fbc005;;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.more_courses a:hover{
+    background: #000;
+    color: #fff;
+    text-decoration: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media only screen and (min-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .phosis_courses_list_area {
+        padding: 50px 0;
+    }
+    .phosis_course_list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .phosis_single_course_item {
+	width: auto;
+	flex-direction: column;
+}
+  .phosis_course_icon {
+	padding: 100px 25px;
+}
+    .phosis_course_icon h2 {
+	font-size: 35px;
+}
+    .phosis_course_contnet {
+        padding: 15px;
+    }
+    .phosis_course_contnet a {
+	font-size: 15px;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

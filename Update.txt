@@ -1,0 +1,96 @@
+Update:
+5th Jan, 2021
+---------------------
+http://project.nnennalovette.com/meta/
+
+    FOR TRIAL SUBSCRIPTION
+    - When user try to get trail membership access, they will endup to the getstart trail page.
+    - After user fill up the form and complete signup, they will be redirected to a page where they can select only 1 class from 4 module.
+    - They will only get access to that particular class.
+
+    FOR YEARLY/MONTHLY SUBSCRIPTION
+    - When user try to get MONTHLY/YEARLY membership access, they will endup to the getstart YEARLY/MONTHLY page.
+    - After user fill up the form they will be redirected to checkout page where they can pay for the membership they choose.
+    - When user has the MONTHLY/YEARLY SUBSCRIPTION they will get full access.
+
+
+TODO:
+------
+ - Make sure that trial user can subscribe only 1 class.
+ - Asign all classes accrording to the custom selection class system
+
+
+Update:
+6th Jan, 2021
+--------------------
+
+http://project.nnennalovette.com/meta/
+
+    - Trial subscriber can select only 1 class from 4 module.
+    - There is no way to change the class after selected 1.
+    - if user want to access more content, they need to upgrade their membership. 
+
+
+Update:
+7th Jan, 2021
+--------------------
+
+http://project.nnennalovette.com/meta/
+
+FOR CONTENT EXCHANGE
+    - I have chaned content from the old sites.
+    - Changed the style of Board of Directors page.
+    - Updated map location of Contact Us page.
+    - Updated Education, Re-entry, Our mission, classes, Contact us and Board of directors.
+    - Dummy content is only on the about us page. we can change anytime.
+    - I didn't find the about us page on the old sites.
+
+
+FOR TRIAL SUBSCRIPTION
+
+    - After sign up for trail subscription user will see a page where they can select a class from 4 module.
+    - After selecting the free class user will see a page where all 4 module classes will be listed.
+    - Only the subscribed class will be visible and all other classes will show "No access"
+    - When user click the particular class that they subscribed, they will see the class without any hustle.
+
+FOR MONTHLY/YEARLY SUBSCRIPTION
+
+    - When user try to getting start with monthly/yearly subscription, they will see a from asking Name, Email, Password.
+    - After fill up the form they will see their checkout page with summery of the subscription,
+    - After paying the subscription fee, they will see a page where all classes will be listed.
+    - From there user can access any class.
+
+
+NOTE: 
+    - We need to edit the email for 
+        - New User Registration
+        - New Subscription
+        - Reminder email before expire Subscription
+        
+PLEASE REVIEW THE SITE AND LET ME KNOW.
+I think we're ready to transfer the site.
+
+One last thing,
+I know we're waiting for the delivery of Metamorphosis site,
+But I really need a large payment, My last paymennt was on 17th Nov, 2020.
+And due to my illness, my savings money was finished and I had to borrowed from friends.
+they are asking for money.
+
+Let me know, if you're able to send a payment of $500 this week.
+
+Have a great day!
+Thanks.
+
+
+Update:
+9th Jan, 2021
+--------------------
+
+http://project.nnennalovette.com/meta/
+
+    - After creating the account for trial subscription user will able to select a class and they will be able to access the class immidiately without any hustle.
+    - I have updated email a little bit.But i will change soon with a great design.
+
+
+Have a great day!
+Thanks.
